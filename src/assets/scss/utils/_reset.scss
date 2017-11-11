@@ -1,0 +1,127 @@
+@font-face {
+  font-family: 'SFUIText';
+  src:    url('https://nomail.com.ua/files/eot/888e0f3f1d925d57beaf9cc4a7b80dbc.eot?#iefix') format('embedded-opentype'),
+  url('https://nomail.com.ua/files/woff/888e0f3f1d925d57beaf9cc4a7b80dbc.woff') format('woff'),
+  url('https://nomail.com.ua/files/woff2/888e0f3f1d925d57beaf9cc4a7b80dbc.woff2') format('woff2');
+}
+
+@font-face { font-family: 'SFUIText-Regular';  src: local('SFUIText-Regular'), url('https://nomail.com.ua/files/woff/888e0f3f1d925d57beaf9cc4a7b80dbc.woff') format('woff'); }
+
+
+@font-face {
+  font-family: 'SFUIText-Bold';
+  src:    url('https://nomail.com.ua/files/eot/8ce3beca87df9f72c93ffc5982450177.eot?#iefix') format('embedded-opentype'),
+  url('https://nomail.com.ua/files/woff/8ce3beca87df9f72c93ffc5982450177.woff') format('woff'),
+  url('https://nomail.com.ua/files/woff2/8ce3beca87df9f72c93ffc5982450177.woff2') format('woff2');
+}
+
+@font-face { font-family: 'SFUIText-Bold';  src: local('SFUIText-Bold'), url('https://nomail.com.ua/files/woff/8ce3beca87df9f72c93ffc5982450177.woff') format('woff'); }
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* stylelint-disable */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  font-family: SFUIText;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  min-height: inherit;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  // Get rid of gap under images by making them display: inline-block; by default
+  display: inline-block;
+  vertical-align: middle;
+
+  // Grid defaults to get images and embeds to work properly
+  max-width: 100%;
+  height: auto;
+  -ms-interpolation-mode: bicubic;
+}
+
+textarea {
+  height: auto;
+  min-height: 50px;
+}
+
+select {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+button {
+  padding: 0;
+  appearance: none;
+  border: 0;
+  background: transparent;
+  line-height: 1;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+}
+
+// Prevent text overflow on pre
+pre {
+  overflow: auto;
+}
+
+/* stylelint-enable */
